@@ -1,0 +1,22 @@
+{
+  "name": "instagram-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:dev",
+    "start:dev": "nodemon index.js",
+    "start:prod": "cross-env PORT=80 NODE_ENV=production node index.js"
+  },
+  "author": "Matteo Minardi",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "nodemon": "^1.17.3"
+  }
+}
